@@ -36,7 +36,7 @@ const Services = () => {
                 <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
                     <Fade>{ServiceTexts.firstText}</Fade>
                 </Text>
-                <Text as="h2" className="md:text-4xl text-2xl font-medium capitalize text-color3">
+                <Text as="h2" className="md:text-3xl text-lg font-medium capitalize text-color3">
                     <Fade>{ServiceTexts.secondText}</Fade>
                 </Text>
 

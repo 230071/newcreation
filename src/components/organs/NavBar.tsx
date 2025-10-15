@@ -5,7 +5,7 @@ import Logo from "../../assets/logo1.png"
 import { NavButtons, NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
 import { NavLink, useNavigate } from "react-router-dom";
-import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
+import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react"; 
 import { Slide } from "react-awesome-reveal";
 
 
@@ -42,7 +42,7 @@ const NavBar = () => {
                         <ul className="flex items-center justify-center gap-8">
                             {
                                 NavLinks.map((navlink, index) => (
-                                    <List className="w-full text-base" key={index}>
+                                    <List className="w-full text-sm" key={index}>
                                         <NavLink to={navlink.url} className="relative inline-block overflow-hidden pt-2 pl-2 before:w-2 before:h-2 before:bg-color2 before:absolute before:top-2 before:-left-10 before:rounded-full before:transition-all before:duration-200 before:ease-in hover:before:left-0.5 after:w-0.5 after:h-3 after:bg-color2 after:absolute after:left-1 after:-top-10 hover:after:top-3.5 after:transition-all after:duration-200 after:ease-in">{navlink.name}</NavLink>
                                     </List>
                                 ))
@@ -53,17 +53,10 @@ const NavBar = () => {
                             {
                                 NavButtons.map((navbutton, index) => (
                                     <List className="w-full" key={index}>
-                                        <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-transparent hover:border-gray-950"} py-2 px-8 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
+                                        <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Donate" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-transparent hover:border-gray-950"} py-2 px-8 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
                                     </List>
                                 ))
                             }
-                            <List className="text-gray-950">
-                                <select className="border-none font-light text-base outline-none bg-transparent">
-                                    <option value="EN" selected>EN</option>
-                                    <option value="ITA">ITA</option>
-                                    <option value="FRA">FRA</option>
-                                </select>
-                            </List>
                         </ul>
                     </div>
                     <div className="lg:hidden flex gap-4 items-center">

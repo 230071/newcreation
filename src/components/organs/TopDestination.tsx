@@ -10,7 +10,7 @@ import City4 from "../../assets/gallery4.jpeg"
 import City5 from "../../assets/gallery5.jpeg"
 import City6 from "../../assets/gallery6.jpeg"
 import { Button } from "../atoms/Button";
-import { AirplaneTilt, CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 
 
 const TopDestination = () => {
@@ -35,7 +35,7 @@ const TopDestination = () => {
     // Slider settings
     const settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -46,7 +46,7 @@ const TopDestination = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: false,
                     dots: false,
                 },
             },
@@ -119,15 +119,7 @@ const TopDestination = () => {
                                         <Text as="h4" className="text-base font-medium text-color3">
                                             {card.country}
                                         </Text>
-                                        <Text as="small" className=" text-color3 font-light text-sm">
-                                            {card.price}
-                                        </Text>
-                                    </div>
-                                    <div className="w-full flex gap-4 items-center text-color3">
-                                        <AirplaneTilt size={20} color="currentColor" weight="fill" />
-                                        <Text as="p" className=" text-color3 font-light text-base">
-                                            {card.duration}
-                                        </Text>
+                                        
                                     </div>
                                 </Card>
                             </div>
