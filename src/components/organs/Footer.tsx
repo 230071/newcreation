@@ -70,30 +70,38 @@ const Footer = () => {
 
         <div className="flex flex-col lg:items-start w-full md:mt-8 gap-4">
           <ul className="w-full flex items-center lg:justify-center gap-4">
-            <List>
-              <Link
-                to={`/https://www.tiktok.com/@newcreationgathering?is_from_webapp=1&sender_device=pc`}
-                className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
+            <li>
+              <a
+                href="https://www.facebook.com/newcreationgathering"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-color3 border border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
                 <FaFacebook size={15} />
-              </Link>
-            </List>
-            <List>
-              <Link
-                to={`/`}
-                className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/@newcreation-2017"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-color3 border border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
                 <FaYoutube size={15} />
-              </Link>
-            </List>
-            <List>
-              <Link
-                to={`/http://www.youtube.com/@newcreation-2017`}
-                className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.tiktok.com/@newcreationgathering?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-color3 border border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
                 <FaTiktok size={15} />
-              </Link>
-            </List>
+              </a>
+            </li>
           </ul>
         </div>
       </section>

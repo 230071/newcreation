@@ -41,6 +41,7 @@ export const ServiceTexts = {
       firstText: "Skilionaire Project",
       secondText:
         "Here, over 30 youths were trained in tailoring in Adjumani town district.",
+        url: "#"
     },
     {
       firstText: "Tomato Project",
