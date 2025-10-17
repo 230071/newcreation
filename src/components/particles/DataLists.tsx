@@ -169,7 +169,7 @@ export const FooterTexts = {
       },
       {
         name: "Contact Us",
-        url: "/",
+        url: "/contact",
       },
       {
         name: "Donate",
