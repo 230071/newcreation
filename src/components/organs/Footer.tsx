@@ -1,5 +1,5 @@
 import { Image } from "../atoms/Image";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/logo1.png";
 import { Text } from "../atoms/Text";
 import { FooterTexts } from "../particles/DataLists";
 import { List } from "../atoms/List";
