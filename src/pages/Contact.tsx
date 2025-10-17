@@ -1,5 +1,5 @@
 import { FaFacebook, FaTiktok } from 'react-icons/fa';
-import { FaXTwitter, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa6';
+import { FaYoutube } from 'react-icons/fa6';
 
 interface ContactPerson {
   name: string;
