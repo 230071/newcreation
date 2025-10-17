@@ -9,6 +9,8 @@ import NavBar from "./components/organs/NavBar"
 import Home from "./components/pages/Home";
 import { useEffect } from "react";
 import Footer from "./components/organs/Footer";
+import AboutPage from "./pages/About";
+import ContactPage from "./pages/Contact";
 
 function App() {
   const directory = useLocation();
@@ -23,6 +25,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </div>

@@ -5,11 +5,11 @@ export const NavLinks = [
   },
   {
     name: "About",
-    url: "/",
+    url: "/about",
   },
   {
     name: "Contact",
-    url: "/",
+    url: "/contact",
   },
 ];
 
@@ -29,15 +29,16 @@ export const HeroTexts = {
 };
 
 export const ServiceTexts = {
-  firstText: "Ministry in Action",
+  firstText: "Activities of the Ministry",
   secondText: "Growing Faith, Building Communities, Changing Lives",
   cards: [
     {
       firstText: "Brick Laying",
       secondText: "Here, 100,000 bricks were laid as a ministry.",
+      url: "https://youtube.com/shorts/1w1MPk1Q_h8?si=F4_o3LNu0ZhVo6Gy",
     },
     {
-      firstText: "Skilionaire",
+      firstText: "Skilionaire Project",
       secondText:
         "Here, over 30 youths were trained in tailoring in Adjumani town district.",
     },
@@ -45,39 +46,52 @@ export const ServiceTexts = {
       firstText: "Tomato Project",
       secondText:
         "Tomatoes were heavily harvested twice a week in the month of Novermber 2024.",
+      url: "https://youtu.be/O6CDatgvKIQ?si=jNJjv67W-Lwjin_I",
     },
     {
       firstText: "Watermelon Project",
       secondText:
         "Here, watermelons were planted and harvested in great numbers.",
+        url: "https://youtu.be/-vuR3z22UOs?si=ykbG6vp9F2_dnhoL",
     },
   ],
 };
 
 export const TopDestinationTexts = {
-  firstText: "Catch_Up",
-  secondText: "Current Ministry Branches",
+  firstText: "Catch Up",
+  secondText: "Share your testimony, a sense of belonging and Current Ministry Branches",
   cards: [
+     {
+      country: "SHARE YOUR TESTIMONY TODAY",
+      url: "https://youtu.be/p5FkK1bnzDc",
+    },
     {
       country: "Unna 1 village, Adjumani",
+      url: "https://youtu.be/p5FkK1bnzDc",
     },
     {
       country: "Obilokong, Adjumani",
+      url: "https://youtu.be/ABt1ceHmzd8",
     },
     {
       country: "Pakele (Former Nile Hall), Adjumani",
+      url: "https://youtu.be/8GjwTg4xuXs",
     },
     {
       country: "Paluga(Behind Olia Prison), Adjumani",
+      url: "https://youtu.be/YQo-z51-EaU?si=WAs4IF5VUk6zeSYo",
     },
     {
       country: "Ukutulu, Adjumani",
+      url: "https://youtu.be/B6vNxJhQ-fY?si=Pu7y1gQWquNrcD_w",
     },
     {
       country: "Edua Village Next Raymond's, Moyo",
+      url: "https://youtu.be/hc4ZryvqwzA",
     },
   ],
 };
+ 
 
 // export const BookingStepsTexts = {
 //   firstText: "Easy and Fast",
@@ -150,7 +164,7 @@ export const FooterTexts = {
       },
       {
         name: "About Us",
-        url: "/",
+        url: "/about",
       },
       {
         name: "Contact Us",
