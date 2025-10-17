@@ -17,16 +17,22 @@ const Services = () => {
 
   return (
     <section className="w-full h-auto flex flex-col items-center justify-center relative lg:px-24 md:px-20 px-6">
-      <Image
+      {/* <Image
         image={GroupOfPlus}
         alt="Vector"
         className="absolute top-0 right-4 lg:h-36 h-24"
-      />
+      /> */}
       <main className="w-full pt-32 flex flex-col gap-3 items-center justify-center">
-        <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
+        <Text
+          as="p"
+          className="font-light text-base text-color3/80 tracking-widest"
+        >
           <Fade>{ServiceTexts.firstText}</Fade>
         </Text>
-        <Text as="h2" className="md:text-2xl text-center text-lg font-medium capitalize text-color3">
+        <Text
+          as="h2"
+          className="md:text-2xl text-center text-lg font-medium capitalize text-color3"
+        >
           <Fade>{ServiceTexts.secondText}</Fade>
         </Text>
 
@@ -59,7 +65,10 @@ const Services = () => {
               <Text as="h4" className="text-base font-medium text-color3">
                 {card.firstText}
               </Text>
-              <Text as="p" className="text-sm font-light text-center text-color3">
+              <Text
+                as="p"
+                className="text-sm font-light text-center text-color3"
+              >
                 {card.secondText}
               </Text>
             </Card>

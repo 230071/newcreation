@@ -1,5 +1,4 @@
 import { Image } from "../atoms/Image";
-import bgImage from "../../assets/HeroVector.png";
 import heroImage from "../../assets/hero-img.png";
 import { Text } from "../atoms/Text";
 import { HeroTexts } from "../particles/DataLists";
@@ -36,23 +35,6 @@ const HeroSection = () => {
             >
               {HeroTexts.firstButton}
             </Button>
-            {/* <div className="flex items-center lg:gap-6 gap-3 cursor-pointer">
-              <Text as="span" className="relative flex h-14 w-14">
-                <Text
-                  as="span"
-                  className="animate-ping absolute inline-flex h-full w-full rounded-full bg-color1 opacity-75"
-                ></Text>
-                <Text
-                  as="span"
-                  className="relative flex justify-center items-center text-white rounded-full h-14 w-14 bg-color1"
-                >
-                  <Play size={20} color="currentColor" weight="fill" />
-                </Text>
-              </Text>
-              <Button type="button" className="outline-none border-none">
-                {HeroTexts.secondButton}
-              </Button>
-            </div> */}
           </div>
         </div>
         <div className="flex items-center justify-center md:order-2 order-1">
