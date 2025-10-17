@@ -35,13 +35,13 @@ export const ServiceTexts = {
     {
       firstText: "Brick Laying",
       secondText: "Here, 100,000 bricks were laid as a ministry.",
-      url: "https://youtube.com/shorts/1w1MPk1Q_h8?si=F4_o3LNu0ZhVo6Gy",
+      url: "https://youtube.com/shorts/7uOm80QitpM?si=ymlXf3FniAyoM37R",
     },
     {
       firstText: "Skilionaire Project",
       secondText:
         "Here, over 30 youths were trained in tailoring in Adjumani town district.",
-        url: "#"
+      url: "#",
     },
     {
       firstText: "Tomato Project",
@@ -53,16 +53,17 @@ export const ServiceTexts = {
       firstText: "Watermelon Project",
       secondText:
         "Here, watermelons were planted and harvested in great numbers.",
-        url: "https://youtu.be/-vuR3z22UOs?si=ykbG6vp9F2_dnhoL",
+      url: "https://youtu.be/-vuR3z22U0s?si=7K6fv5fQs7plfAaV",
     },
   ],
 };
 
 export const TopDestinationTexts = {
   firstText: "Catch Up",
-  secondText: "Share your testimony, a sense of belonging and Current Ministry Branches",
+  secondText:
+    "Share your testimony, a sense of belonging and Current Ministry Branches",
   cards: [
-     {
+    {
       country: "SHARE YOUR TESTIMONY TODAY",
       url: "https://youtu.be/p5FkK1bnzDc",
     },
@@ -92,7 +93,6 @@ export const TopDestinationTexts = {
     },
   ],
 };
- 
 
 // export const BookingStepsTexts = {
 //   firstText: "Easy and Fast",
