@@ -1,3 +1,4 @@
+import { FaFacebook, FaTiktok } from 'react-icons/fa';
 import { FaXTwitter, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa6';
 
 interface ContactPerson {
@@ -60,10 +61,9 @@ const ContactPage = () => {
   ];
 
   const socialLinks = [
-    { icon: FaXTwitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: FaInstagram, href: "https://instagram.com", label: "Instagram" },
-    { icon: FaYoutube, href: "https://youtube.com", label: "YouTube" },
-    { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" }
+    { icon: FaFacebook, href: "https://twitter.com", label: "Twitter" },
+    { icon: FaTiktok, href: "https://www.tiktok.com/@newcreationgathering?is_from_webapp=1&sender_device=pc", label: "Instagram" },
+    { icon: FaYoutube, href: "https://www.youtube.com/@newcreation-2017", label: "YouTube" },
   ];
 
   return (
