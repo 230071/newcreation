@@ -63,10 +63,6 @@ export const TopDestinationTexts = {
   secondText: "Current Ministry Branches",
   cards: [
     {
-      country: "SHARE YOUR TESTIMONY TODAY",
-      url: "https://youtu.be/p5FkK1bnzDc",
-    },
-    {
       country: "Unna 1 village, Adjumani",
       url: "https://youtu.be/p5FkK1bnzDc",
     },
