@@ -12,23 +12,20 @@ const HeroSection = () => {
       // style={{ backgroundImage: `url(${bgImage})` }}
     >
       <main className="w-full lg:h-full h-auto grid md:grid-cols-2 absolute top-0 left-0 lg:px-24 md:px-8 px-5 pt-24 md:pt-32 lg:pt-0">
-        <div className="flex flex-col justify-center md:gap-6 gap-3 md:order-1 order-2">
-          {/* <Text as="p" className="text-color1 uppercase tracking-widest lg:text-base  text-sm font-normal">
-            <Fade>{HeroTexts.firstText}</Fade>
-          </Text> */}
+        <div className="flex flex-col justify-center items-center gap-4 md:gap-6 gap-3 md:order-1 order-2">
           <Text
             as="h1"
-            className="text-color3 lg:text-5xl md:text-3xl text-xl font-medium"
+            className="text-color3 lg:text-5xl md:text-3xl text-xl font-medium text-center md:text-start mt-8"
           >
             <Fade>{HeroTexts.secondText}</Fade>
           </Text>
           <Text
             as="p"
-            className="text-color3 md:text-base text-sm text-justify font-light"
+            className="text-color3 md:text-base text-sm text-center md:text-start font-light"
           >
             <Fade>{HeroTexts.thirdText}</Fade>
           </Text>
-          <div className="w-full flex md:justify-start justify-between items-center lg:gap-12 md:gap-6 gap-0">
+          <div className="w-full flex md:justify-start justify-center items-center lg:gap-12 md:gap-6 gap-0">
             <Button
               type="button"
               className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg"

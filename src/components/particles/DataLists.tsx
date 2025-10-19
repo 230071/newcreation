@@ -61,7 +61,7 @@ export const ServiceTexts = {
 export const TopDestinationTexts = {
   firstText: "Catch Up",
   secondText:
-    "Share your testimony, a sense of belonging and Current Ministry Branches",
+    "Current Ministry Branches",
   cards: [
     {
       country: "SHARE YOUR TESTIMONY TODAY",
