@@ -29,6 +29,7 @@ const HeroSection = () => {
             <Button
               type="button"
               className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg"
+              onClick={() => window.open('https://wa.link/g6l89n', '_blank')}
             >
               {HeroTexts.firstButton}
             </Button>
