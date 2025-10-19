@@ -170,10 +170,6 @@ export const FooterTexts = {
         name: "Contact Us",
         url: "/contact",
       },
-      {
-        name: "Donate",
-        url: "/",
-      },
     ],
   },
   contacts: {
