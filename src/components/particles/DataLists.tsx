@@ -35,13 +35,13 @@ export const ServiceTexts = {
     {
       firstText: "Brick Laying",
       secondText: "Here, 100,000 bricks were laid as a ministry.",
-      url: "https://youtube.com/shorts/7uOm80QitpM?si=ymlXf3FniAyoM37R",
+      url: "https://youtu.be/hwry3drxZGc?si=xCj_pIUKVqJanLJY",
     },
     {
       firstText: "Skilionaire Project",
       secondText:
-        "Here, over 30 youths were trained in tailoring in Adjumani town district.",
-      url: "#",
+        "Members joined in building the church and learned key skills.",
+      url: "https://youtu.be/Rxd4y3mlb-c?si=fvUhUc8LVp8r3u9z",
     },
     {
       firstText: "Tomato Project",
@@ -60,8 +60,7 @@ export const ServiceTexts = {
 
 export const TopDestinationTexts = {
   firstText: "Catch Up",
-  secondText:
-    "Current Ministry Branches",
+  secondText: "Current Ministry Branches",
   cards: [
     {
       country: "SHARE YOUR TESTIMONY TODAY",
